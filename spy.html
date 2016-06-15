@@ -1,0 +1,20 @@
+<!doctype html>
+<html>
+<head>
+    <title>The navigator Object</title>
+</head>
+<body>
+    <script type="text/javascript">
+            var body = document.getElementsByTagName("body")[0];
+            for (var prop in navigator) {
+                var elem = document.createElement("p");
+                var text = document.createTextNode(prop + ": " +
+					navigator[prop]);
+                elem.appendChild(text);
+                body.appendChild(elem);
+            }
+    </script>
+
+</body>
+</html>
+
