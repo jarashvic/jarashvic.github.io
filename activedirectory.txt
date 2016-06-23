@@ -38,4 +38,14 @@ Exercise.
 5.	Verify connectivity by pinging the Windows Server FROM
 	the Windows 7 VM.
 
+6.	Install Active Directory on the Windows Server 2016.
+	Choose any domain name (something like Glendale.local).
+
+		Remember that you may need to assign a password
+	to the local administrator account ( use compmgmt.msc )
+
+7.	Join the Windows 7 VM to your domain.
+
+
+
 
