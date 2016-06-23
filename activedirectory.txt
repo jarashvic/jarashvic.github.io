@@ -1,0 +1,41 @@
+Exercise.
+
+	Installing Active Directory.
+
+
+1.	Copy the Windows Server ISO file from Victor's.
+
+	net  use  *  \\192.168.1.228\WindowsServer2016
+
+		admin
+		Pa$$w0rd
+
+2.	Use VMWare Workstation Player to create a VM.
+	Use default settings.
+
+2.5	On the command line:  ncpa.cpl
+
+
+3.	Assign an IP address, a subnet mask, a default
+	gateway and two DNS Server IP addresses:
+
+	For example:	192.168.1.X	
+			255.255.255.0		
+			192.168.1.3 <------  default gateway
+			192.168.1.X <------  first DNS IP
+			8.8.8.8     <------  second DNS IP
+
+4.	Start the Windows 7 VM and assign IP, SM, DG and DNS.
+
+	For example:	192.168.1.Y	(Y is not X)	
+			255.255.255.0		
+			192.168.1.3 <------  default gateway
+			192.168.1.X <------  first DNS IP
+					     (the same X of
+					       your Server!)
+			8.8.8.8     <------  second DNS IP
+
+5.	Verify connectivity by pinging the Windows Server FROM
+	the Windows 7 VM.
+
+
