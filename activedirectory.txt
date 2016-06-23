@@ -46,6 +46,15 @@ Exercise.
 
 7.	Join the Windows 7 VM to your domain.
 
+8.	Create a user account in Active Directory Users
+	and Computers.
+
+9.	Log in as that user in the Windows 7 VM.
+
+10.	Create a group policy to disable the registry.
+
+11.	Verify (regedit.exe).
+
 
 
 
